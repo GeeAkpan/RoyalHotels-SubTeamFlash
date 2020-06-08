@@ -161,3 +161,42 @@ nav a{
     border-radius: 10px;
     color: white;
 }
+
+
+/* About us Section */
+.AboutUs-landing{
+    width: 100%;
+    z-index: -1;
+    display: grid;
+    background-image: url('../images/Rectangle\ 5.png');
+
+}
+.noted{
+    margin: 30px;
+}
+.Royaltag{
+    display: grid;
+    padding-left: 50px;
+    justify-content: left;
+    align-content: center;
+    color: #FC3C3C;
+}
+.longnote{
+    display: grid;
+    padding-left: 50px;
+    justify-content: left;
+    align-content: center;
+    
+}
+.section2{
+   display: grid;
+   grid-template-columns: repeat(auto-fill);
+   justify-content: center;
+   text-align: center;
+   margin-top: 20px;
+
+}
+.grid-box{
+    display: inline-block;
+
+}

@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html{
+    font-size: 62.5%;
+}
 nav{
     text-transform: uppercase;
     height: 80px;
@@ -21,4 +24,61 @@ nav a{
 .home-inner{
     background: url('../images/Rectangle\ 9\ \(3\).png') center center/cover ;
     max-height: 100vh;
+}
+.contact__name{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, [formstart] minmax(25rem,1fr) [formend]);
+    grid-gap: 2rem;
+    margin: 2rem;
+}
+.contact{
+    grid-column:formstart 1/formend 1 ;
+}
+.contact__form{
+    display: grid;
+}
+.form__group{
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+.form__button{
+    align-self: center;
+    justify-self: center;
+}
+.contact__input{
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    background-color:#fff;
+    border: none;
+    width: 90%;
+    display: block;
+    border: 1px solid orangered;
+}
+.images{
+    grid-column: formstart 2/ formend 2;
+    width: 90%;
+    margin-top: 2rem;
+}
+.img{
+    width: 100%;
+}
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 2rem;
+    padding: 1.5rem 3rem;
+    color: #fff;
+    background-color: orangered;
 }

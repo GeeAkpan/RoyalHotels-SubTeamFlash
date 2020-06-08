@@ -22,3 +22,81 @@ nav a{
     background: url('../images/Rectangle\ 9\ \(3\).png') center center/cover ;
     max-height: 100vh;
 }
+
+
+.facilityCard {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    left: 0px;
+    top: 0px;
+
+    background: #FBFBFB;
+}
+.facilityHead, .facilitySubFoot {
+    font-family: Helvetica Now Text ;
+    font-style: normal;
+    text-align: center;
+    font-weight: normal;
+    /* identical to box height */
+    letter-spacing: 0.119952px;
+
+    /* bLACK 2B2B2B */
+    color: #2B2B2B;
+}
+
+.facilitySubFoot {
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.facilityHead {
+    font-size: 48px;
+    line-height: 71px;
+}
+
+.facilitySubCardLeft {
+    position: absolute;
+    width: 350px;
+    height: 390px;
+    left: 120px;
+    top: 161px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 4px 8px rgba(0, 0, 0, 0.04);
+}
+
+.facilitySubCardCenter {
+    position: absolute;
+    width: 350px;
+    height: 390px;
+    left: 545px;
+    top: 161px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 4px 8px rgba(0, 0, 0, 0.04);
+}
+
+.facilitySubCardRight {
+    position: absolute;
+    width: 350px;
+    height: 390px;
+    left: 970px;
+    top: 161px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 4px 8px rgba(0, 0, 0, 0.04);
+}
+
+.facilityFoot {
+    position: absolute;
+    width: 220px;
+    height: 70px;
+    left: 610px;
+    top: 611px;
+    /* Primary color */
+    background: #FC3C3C;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: white;
+}
